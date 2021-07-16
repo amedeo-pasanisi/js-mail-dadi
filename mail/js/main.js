@@ -8,14 +8,16 @@ console.log("Email utente: " + email);
 // controlla che sia nella lista di chi può accedere
 for (i = 0; i < lista.length; i++) {
     
-    if (lista[i] === email) {
+    if (email === lista[i]) {
+
         var presente;
+
         email = presente;
     }
 }
 
 // stampa un messaggio appropriato sull’esito del controllo.
-if (email = presente) {
+if (email == presente) {
     console.log("La tua email è nella lista");
 } else {
     console.log("La tua email non è nella lista");
