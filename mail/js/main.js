@@ -1,4 +1,4 @@
-var lista = ["amedeo@gmail.com", "contessa@libero.it", "oflaga@outlook.com"];
+var lista = ["amedeo@gmail.com", "contessa@libero.it", "offlaga@outlook.com"];
 console.log("Lista email: " + lista);
 
 // Chiedi all’utente la sua email
@@ -10,14 +10,12 @@ for (i = 0; i < lista.length; i++) {
     
     if (email === lista[i]) {
 
-        var presente;
-
-        email = presente;
+        email = true;
     }
 }
 
 // stampa un messaggio appropriato sull’esito del controllo.
-if (email == presente) {
+if (email == true) {
     console.log("La tua email è nella lista");
 } else {
     console.log("La tua email non è nella lista");
