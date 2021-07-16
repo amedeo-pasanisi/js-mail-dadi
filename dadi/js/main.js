@@ -2,15 +2,15 @@
 // Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
 var dadoGiocatore = Math.floor(Math.random() * 5) + 1;
-console.log("Hai fatto " + dadoGiocatore)
+console.log("Hai fatto " + dadoGiocatore);
 
 var dadoComputer = Math.floor(Math.random() * 5) + 1;
-console.log("Il computer ha fatto " + dadoComputer)
+console.log("Il computer ha fatto " + dadoComputer);
 
 if (dadoGiocatore > dadoComputer) {
-    console.log("Hai vinto!")
+    console.log("Hai vinto!");
 } else if (dadoGiocatore == dadoComputer) {
-    console.log("hai pareggiato!")
+    console.log("hai pareggiato!");
 } else if (dadoGiocatore < dadoComputer) {
-    console.log("hai perso!")
+    console.log("hai perso!");
 }
